@@ -53,7 +53,7 @@
       "name": "accesscontextmanager",
       "version": "v1beta",
       "title": "Access Context Manager API",
-      "description": "An API for setting attribute based access control to requests to GCP services.",
+      "description": "An API for setting attribute based access control to requests to Google Cloud services.",
       "discoveryRestUrl": "https://accesscontextmanager.googleapis.com/$discovery/rest?version=v1beta",
       "icons": {
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
@@ -68,13 +68,28 @@
       "name": "accesscontextmanager",
       "version": "v1",
       "title": "Access Context Manager API",
-      "description": "An API for setting attribute based access control to requests to GCP services.",
+      "description": "An API for setting attribute based access control to requests to Google Cloud services.",
       "discoveryRestUrl": "https://accesscontextmanager.googleapis.com/$discovery/rest?version=v1",
       "icons": {
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
       "documentationLink": "https://cloud.google.com/access-context-manager/docs/reference/rest/",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "acmedns:v1",
+      "name": "acmedns",
+      "version": "v1",
+      "title": "ACME DNS API",
+      "description": "Google Domains ACME DNS API that allows users to complete ACME DNS-01 challenges for a domain.",
+      "discoveryRestUrl": "https://acmedns.googleapis.com/$discovery/rest?version=v1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://developers.google.com/domains/acme-dns/",
       "preferred": true
     },
     {
@@ -218,7 +233,7 @@
       "name": "advisorynotifications",
       "version": "v1",
       "title": "Advisory Notifications API",
-      "description": "",
+      "description": "An API for accessing Advisory Notifications in Google Cloud",
       "discoveryRestUrl": "https://advisorynotifications.googleapis.com/$discovery/rest?version=v1",
       "icons": {
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
@@ -1794,7 +1809,7 @@
       "id": "contentwarehouse:v1",
       "name": "contentwarehouse",
       "version": "v1",
-      "title": "contentwarehouse API",
+      "title": "Document AI Warehouse API",
       "description": "",
       "discoveryRestUrl": "https://contentwarehouse.googleapis.com/$discovery/rest?version=v1",
       "icons": {
@@ -3289,6 +3304,21 @@
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
       "documentationLink": "https://cloud.google.com/iam/",
+      "preferred": false
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "iam:v2",
+      "name": "iam",
+      "version": "v2",
+      "title": "Identity and Access Management (IAM) API",
+      "description": "Manages identity and access control for Google Cloud Platform resources, including the creation of service accounts, which you can use to authenticate to Google and make API calls.",
+      "discoveryRestUrl": "https://iam.googleapis.com/$discovery/rest?version=v2",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/iam/",
       "preferred": true
     },
     {
@@ -4479,6 +4509,36 @@
     },
     {
       "kind": "discovery#directoryItem",
+      "id": "publicca:v1alpha1",
+      "name": "publicca",
+      "version": "v1alpha1",
+      "title": "Public Certificate Authority API",
+      "description": "The Public Certificate Authority API may be used to create and manage ACME external account binding keys associated with Google Trust Services' publicly trusted certificate authority.",
+      "discoveryRestUrl": "https://publicca.googleapis.com/$discovery/rest?version=v1alpha1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/public-certificate-authority/docs",
+      "preferred": false
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "publicca:v1beta1",
+      "name": "publicca",
+      "version": "v1beta1",
+      "title": "Public Certificate Authority API",
+      "description": "The Public Certificate Authority API may be used to create and manage ACME external account binding keys associated with Google Trust Services' publicly trusted certificate authority.",
+      "discoveryRestUrl": "https://publicca.googleapis.com/$discovery/rest?version=v1beta1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/public-certificate-authority/docs",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
       "id": "pubsub:v1beta1a",
       "name": "pubsub",
       "version": "v1beta1a",
@@ -4535,6 +4595,21 @@
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
       "documentationLink": "https://cloud.google.com/pubsub/lite/docs",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "readerrevenuesubscriptionlinking:v1",
+      "name": "readerrevenuesubscriptionlinking",
+      "version": "v1",
+      "title": "Reader Revenue Subscription Linking API",
+      "description": "readerrevenuesubscriptionlinking.googleapis.com API.",
+      "discoveryRestUrl": "https://readerrevenuesubscriptionlinking.googleapis.com/$discovery/rest?version=v1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://developers.google.com/news/subscribe/subscription-linking/overview",
       "preferred": true
     },
     {
@@ -5232,7 +5307,7 @@
       "id": "sqladmin:v1beta4",
       "name": "sqladmin",
       "version": "v1beta4",
-      "title": "Cloud SQL Admin API",
+      "title": "sqladmin API (prod)",
       "description": "API for Cloud SQL database instance management",
       "discoveryRestUrl": "https://sqladmin.googleapis.com/$discovery/rest?version=v1beta4",
       "icons": {
@@ -5247,7 +5322,7 @@
       "id": "sqladmin:v1",
       "name": "sqladmin",
       "version": "v1",
-      "title": "Cloud SQL Admin API",
+      "title": "sqladmin API (prod)",
       "description": "API for Cloud SQL database instance management",
       "discoveryRestUrl": "https://sqladmin.googleapis.com/$discovery/rest?version=v1",
       "icons": {
@@ -5795,6 +5870,36 @@
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
       "documentationLink": "https://cloud.google.com/migrate/virtual-machines",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "vpcaccess:v1beta1",
+      "name": "vpcaccess",
+      "version": "v1beta1",
+      "title": "Serverless VPC Access API",
+      "description": "API for managing VPC access connectors.",
+      "discoveryRestUrl": "https://vpcaccess.googleapis.com/$discovery/rest?version=v1beta1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/vpc/docs/configure-serverless-vpc-access",
+      "preferred": false
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "vpcaccess:v1",
+      "name": "vpcaccess",
+      "version": "v1",
+      "title": "Serverless VPC Access API",
+      "description": "API for managing VPC access connectors.",
+      "discoveryRestUrl": "https://vpcaccess.googleapis.com/$discovery/rest?version=v1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/vpc/docs/configure-serverless-vpc-access",
       "preferred": true
     },
     {
