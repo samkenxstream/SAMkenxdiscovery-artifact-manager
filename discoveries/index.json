@@ -1293,21 +1293,6 @@
     },
     {
       "kind": "discovery#directoryItem",
-      "id": "cloudiot:v1",
-      "name": "cloudiot",
-      "version": "v1",
-      "title": "Cloud IoT API",
-      "description": "Registers and manages IoT (Internet of Things) devices that connect to the Google Cloud Platform.",
-      "discoveryRestUrl": "https://cloudiot.googleapis.com/$discovery/rest?version=v1",
-      "icons": {
-        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
-        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
-      },
-      "documentationLink": "https://cloud.google.com/iot",
-      "preferred": true
-    },
-    {
-      "kind": "discovery#directoryItem",
       "id": "cloudkms:v1",
       "name": "cloudkms",
       "version": "v1",
@@ -3188,6 +3173,21 @@
     },
     {
       "kind": "discovery#directoryItem",
+      "id": "gkeonprem:v1",
+      "name": "gkeonprem",
+      "version": "v1",
+      "title": "Anthos On-Prem API",
+      "description": "",
+      "discoveryRestUrl": "https://gkeonprem.googleapis.com/$discovery/rest?version=v1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/anthos/clusters/docs/on-prem/",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
       "id": "gmail:v1",
       "name": "gmail",
       "version": "v1",
@@ -4595,6 +4595,21 @@
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
       "documentationLink": "https://cloud.google.com/public-certificate-authority/docs",
+      "preferred": false
+    },
+    {
+      "kind": "discovery#directoryItem",
+      "id": "publicca:v1",
+      "name": "publicca",
+      "version": "v1",
+      "title": "Public Certificate Authority API",
+      "description": "The Public Certificate Authority API may be used to create and manage ACME external account binding keys associated with Google Trust Services' publicly trusted certificate authority.",
+      "discoveryRestUrl": "https://publicca.googleapis.com/$discovery/rest?version=v1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://cloud.google.com/public-certificate-authority/docs",
       "preferred": true
     },
     {
@@ -5404,7 +5419,7 @@
         "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
         "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
       },
-      "documentationLink": "https://developers.google.com/storage/docs/json_api/v1/",
+      "documentationLink": "https://cloud.google.com/storage/docs/apis",
       "preferred": true
     },
     {

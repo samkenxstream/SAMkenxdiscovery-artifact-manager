@@ -1,11 +1,11 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"uWj2hSb4GVjzdDlAnRd2gbM1ZQ8/YVCKnp3Zl6X5A7iBN9YZ0dNBIBk\"",
+ "etag": "\"VYc8DWo_6wRTElVugbtvWfkARsc/vUgtTacNQXAlvuhI2YoKrF8mHHA\"",
  "discoveryVersion": "v1",
  "id": "drive:v2",
  "name": "drive",
  "version": "v2",
- "revision": "20230212",
+ "revision": "20230423",
  "title": "Drive API",
  "description": "Manages files in Drive including uploading, downloading, searching, detecting changes, and updating sharing permissions.",
  "ownerDomain": "google.com",
@@ -4116,8 +4116,13 @@
      "id": "drive.files.emptyTrash",
      "path": "files/trash",
      "httpMethod": "DELETE",
-     "description": "Permanently deletes all of the user's trashed files.",
+     "description": "Permanently deletes all trashed files of a user or shared drive.",
      "parameters": {
+      "driveId": {
+       "type": "string",
+       "description": "If set, empties the trash of the provided shared drive.",
+       "location": "query"
+      },
       "enforceSingleParent": {
        "type": "boolean",
        "description": "Deprecated. If an item is not in a shared drive and its last parent is deleted but the item itself is not, the item will be placed under its owner's root.",
@@ -5052,7 +5057,7 @@
      "id": "drive.files.watch",
      "path": "files/{fileId}/watch",
      "httpMethod": "POST",
-     "description": "Subscribes to changes to a file. While you can establish a channel for changes to a file on a shared drive, a change to a shared drive file won't create a notification.",
+     "description": "Subscribe to changes on a file.",
      "parameters": {
       "acknowledgeAbuse": {
        "type": "boolean",
